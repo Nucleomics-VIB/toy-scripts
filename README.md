@@ -1,44 +1,36 @@
 # toy-scripts
 
-> ⚠️ **This README is a placeholder.** It was added so the repository is not a dead end
-> when someone lands here from the [organization index](https://github.com/Nucleomics-VIB).
-> Everything below marked **TODO** is still missing — please fill it in. A repository whose
-> README says nothing is one nobody else can pick up, including you in a year.
-
 small scripts from AI testing
 
 ## What is in here
 
-- Three small Bash exercises: `check_if_prime.sh`, `fibonacci_until.sh`, `prime_until.sh`
+Three standalone Bash exercises, written while testing AI-assisted coding — not a
+pipeline, not a library, just self-contained scripts:
 
-## What it does
-
-**TODO** — one paragraph: what problem this solves, and for whom.
+- `check_if_prime.sh` — checks primality for a fixed list of numbers.
+- `fibonacci_until.sh` — prints the Fibonacci sequence up to a limit you enter.
+- `prime_until.sh` — lists prime numbers up to a limit you enter.
 
 ## How to run it
 
-**TODO** — the entry point, and the command that actually works. If it needs a conda
-environment, a container, or a specific host, say which.
-
 ```bash
-# TODO
+bash check_if_prime.sh
+bash fibonacci_until.sh    # prompts for a limit
+bash prime_until.sh        # prompts for a limit
 ```
 
 ## Requirements
 
-**TODO** — dependencies, and where they come from (conda, container, system).
+Bash and `bc` (used for the square-root check in the primality tests). Both are
+preinstalled on macOS and most Linux distributions.
 
 ## Status
 
-**TODO** — pick one and delete the rest:
-
-- **Active** — used in production, changes are expected.
-- **Stable** — works, kept for reference, no active development.
-- **Parked** — incomplete or superseded. Say by what.
+**Stable** — works, kept for reference, no active development.
 
 ## Maintainer
 
-**TODO** — who to ask. Add a credit line: created by *name* — **VIB Nucleomics Core**.
+Stephane Plaisance — **VIB Nucleomics Core**.
 
 ---
 
